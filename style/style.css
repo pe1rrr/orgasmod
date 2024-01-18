@@ -1,0 +1,328 @@
+@import "common.css";
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	font-size:12px;
+	color: #000000;
+	background: #777777;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+/* Module format icon */
+
+.format-icon {
+        display: inline-block;
+        overflow: hidden;
+        width: 24px;
+        height: 14px;
+        line-height: 14px;
+        background: #333;
+        color: #ABB;
+        font-size: 8px;
+        text-align: center;
+        border-radius: 3px;
+        border: 1px solid #666;
+        vertical-align: middle;
+}
+
+.tiny-mono {
+	color: #5B6868;
+}
+
+.title, .faded, a.faded:link, a.faded:visited {
+	color: #5B6868;
+	text-decoration: none;
+}
+
+a.faded:hover {
+	text-decoration: underline;
+}
+	
+
+.bgwip {
+	background:  url(images/bg/bg_wip.png) top no-repeat;
+	min-height: 100px;
+}
+
+/* Segment Backgrounds */
+
+.bgspotlight {
+        background:  #7B8C8C;
+	min-height: 170px;
+}
+
+.bgmodtext {
+        max-height: 400px;
+        max-width: 350px;
+
+}
+
+.bgfavourites {
+        background:  url(images/bg/bg_favourites.png) top right no-repeat;
+        min-height: 250px;
+}
+
+.bgcomment {
+        background:  url(images/bg/bg_comment.png) top right no-repeat #ACB8B8;
+        min-height: 170px;
+}
+
+.bgplayer {
+	background:  #B6C1C0;
+	color: #5B6868;
+	border: solid #5B6868 4px;
+}
+
+.bgmods {
+	background:  url(images/bg_mods.png) top right no-repeat;
+}
+
+.bgfooter {
+        background:  url(images/bg/bg_footer.png) top left repeat-x;
+	min-height: 38px;
+}
+
+.bgsearch {
+        background:  url(images/bg/bg_search.png) top right no-repeat;
+	min-height: 500px;
+}
+
+.bgmembers {
+        background:  url(images/bg_members.png) top right no-repeat;
+}
+
+
+.bgmod {
+        background:  url(images/bg_mod.png) top right no-repeat;
+	height: 37px;
+}
+
+/* Module page header backgrounds */
+
+.bg-MOD {
+        background:  url(images/modbgs/MOD.png) top right no-repeat;
+	min-height: 100px;
+	color: #5B6868;
+}
+
+.bg-XM {
+        background:  url(images/modbgs/XM.png) top right no-repeat;
+        min-height: 100px;
+	color: #5B6868;
+}
+
+.bg-IT {
+        background:  url(images/modbgs/IT.png) top right no-repeat;
+        min-height: 100px;
+	color: #5B6868;
+}
+
+.bg-S3M {
+        background:  url(images/modbgs/S3M.png) top right no-repeat;
+        min-height: 100px;
+	color: #5B6868;
+}
+
+.bg-AHX {
+        background:  url(images/modbgs/AHX.png) top right no-repeat;
+        min-height: 100px;
+	color: #5B6868;
+}
+
+.bg-HVL {
+        background:  url(images/modbgs/HVL.png) top right no-repeat;
+        min-height: 100px;
+	color: #5B6868;
+}
+
+.bg-669 {
+        background:  url(images/modbgs/669.png) top right repeat-y;
+        min-height: 100px;
+        color: #5B6868;
+}
+
+.bg-MTM {
+        background:  url(images/modbgs/MTM.png) top right repeat-y;
+        min-height: 100px;
+        color: #5B6868;
+}
+
+.bg-MED {
+        background:  url(images/modbgs/MED.png) top right repeat-y;
+        min-height: 100px;
+        color: #5B6868;
+}
+
+.bg-MO3 {
+	min-height: 100px;
+        color: #5B6868;
+}
+
+
+.borderbox {
+	border-top: solid #5B6868 4px;
+	padding: 10px;
+}
+
+.noborderbox {
+        padding: 10px;
+}
+
+
+/* Main Borders */
+
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px}
+b.rbottom, b.rbottom b {
+        font-size: 0px;
+}
+
+b.rtop, b.rbottom{
+        display:block;
+}
+
+b.rbottom b{
+        display:block;
+        height: 1px;
+        overflow: hidden;
+        background: #8A9A9A;
+}
+
+/* Segment Borders and backgrounds */
+
+b.segment-top, b.segment-bottom{
+        display:block;
+}
+
+b.segment-bottom b{
+        display:block;
+        height: 1px;
+        overflow: hidden;
+        background: #ACB8B8;
+}
+
+.boxl {
+        background:  url(images/bg/bg_box_l.png) top left no-repeat #ACB8B8;
+}
+
+.box, .boxr {
+        background:  url(images/bg/bg_box_r.png) top right no-repeat #ACB8B8;
+}
+
+/* Other Backgrounds */
+
+.mainbg {
+	background: #8A9A9A;
+	min-height: 600px;
+}
+
+.header {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	background: url(images/header.png) left top no-repeat #FFD2FF;
+        font-size : 14px;
+        color : #000000;
+        font-family: Verdana, Arial, Helvetica, sans-serif;;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 2px;
+}
+
+a.headerlink {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size : 14px;
+        color : #000000;
+        font-family: Verdana, Arial, Helvetica, sans-serif;;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 2px;
+}
+
+a.button:link,a.button:active,a.button:visited, .button {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #5C6969;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #5C6969;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: #5C6969;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #5C6969;
+        background-color: #5C6969;
+        color: #ffffff;
+        font-weight: bold;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 3px;
+        padding-right: 3px;
+        text-decoration: none;
+}
+
+.paging-selected {
+	background: #98A5A5;
+	color: #5C6969;
+	text-decoration: blink;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #5C6969;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-top-color: #5C6969;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: #5C6969;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: #5C6969;
+        font-weight: bold;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 3px;
+        padding-right: 3px;
+}
+
+h2,h3 {
+	padding: 0px;
+}
+
+
+li,dd,dt {
+	font-size : 12px;
+	color : #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;;
+} 
+
+a:link,a:active,a:visited { 
+	color : #000000;
+}
+
+a:hover { 
+	text-decoration: underline; 
+	color : #000000;
+}
+
+hr { 
+	height: 0px; 
+	border: solid #222222 0px; 
+	border-top-width: 1px;
+}
+
+select {
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	border: inset 1px #6698CB;
+}
+
+input {
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	border: inset 1px #6698CB;
+
+}

@@ -1,0 +1,117 @@
+.nounderline, a.nounderline {
+	text-decoration: none;
+}
+	
+.centrebox {
+	max-width: 600px; margin-left: auto; margin-right:auto;
+}
+.highlight {
+	font-weight: bold;
+}
+
+ul.nolist, .nolist {
+	list-style-type: none;
+}
+	
+
+img.middle, .middle {
+        vertical-align:middle;
+}
+
+
+.caps {
+	font-variant: small-caps;
+}
+
+.browse-modtitle {
+        font-size: 10px;
+        padding: 5px;
+}
+
+.table-flow {
+	overflow:auto;
+}
+
+table, tr {
+	margin-left: auto;
+	margin-right: auto;
+        width: 99%;
+}
+
+font,th,td,p { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+h1 { font-family: Arial, Helvetica, sans-serif;
+	font-size:28px}
+
+h2 { font-family: Arial, Helvetica, sans-serif;
+font-size:14px}
+
+h3 { font-family: Arial, Helvetica, sans-serif;
+font-size:11px}
+
+p,h1,h2,h3 {
+        margin:0px 10px 10px 10px;
+}
+
+.center {
+        text-align: center;
+}
+
+.medtext {
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
+.gentext, a.gentext, td.gentext {
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.bigtext {
+        font: 14px Arial, Helvetica, sans-serif;
+}
+
+.bigbiglink, a.bigbiglink, td.bigbiglink {
+        font: 14px  Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.biglink, a.biglink, td.biglink {
+        font: 14px Arial, Helvetica, sans-serif;
+}
+.normallink, a.normallink, td.normallink {
+        font: 14px Arial, Helvetica, sans-serif;
+}
+
+.tiny  {
+        font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.player {
+        font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+	top: 0px;
+	width: 100%;
+	text-align: left;
+}
+.tiny-mono {
+	font: normal 14px monospace;
+}
+
+.tiny td  {
+        font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.tiny  {
+        font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.overflowclip {
+	overflow: hidden;
+}
+.overflow {
+        overflow: auto;
+}
+
+a.smallupper, smallupper {
+        font-variant: small-caps;
+}
