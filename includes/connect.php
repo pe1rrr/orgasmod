@@ -21,9 +21,13 @@ if (
 	# complete re-write from Version 3.0
 
         $global_vars = array();
-        $global_vars['app_path'] = "xml-tools.php";
-        $global_vars['http_path'] = "https://modarchive.org/data";
+	# API
+	$global_vars['app_path'] = "xml-tools.php"; 
+	# URL of the TMA API
+	$global_vars['http_path'] = "https://api.modarchive.org"; 
+	# Local Overrides 
         $global_vars['local_http_path'] = 'http://orgasmod.com';
+	# Other Defaults (used for development, no need to change)
         $global_vars['path_http_script_downloads'] = "https://api.modarchive.org/downloads.php";
         $global_vars['path_http_script_index'] = "index.php";
 
